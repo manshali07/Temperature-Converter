@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temperature Convertor</title>
+        <link rel="stylesheet" href="firstpage.css">
+        <script type=text/javascript src="firstpage.js"></script>
+    </head>
+    <body bgcolor="antiquewhite">
+        <b>
+        <h1 id="head1"><font face="Colonna MT">Let's Convert</font></h1>
+        <hr style="height:10px;">
+        <br>
+        <br>
+        <form style="font-size: 25px;" id="f1">
+            <font face="Book Antiqua">Temperature Unit:</font>
+            <select style="height: 26px; width: 175px; font-size: 17px" id="option">
+                <option value=" "></option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            <br>
+            <br>
+            <font face="Book Antiqua">Temperature Value: </font>
+            <input type="text" style="height: 25px; width: 200px; font-size: 17px" id="val1">
+        </form>
+        <br>
+        <button onclick="choice()" id="b1">Convert</button>
+        <font face="Book Antiqua">
+        <p>RESULT:</p>
+        <p id="para1"></p>
+        <p id="para2"></p>
+        </font>
+        </b>
+    </body>
+</html>
